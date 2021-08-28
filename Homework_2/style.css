@@ -1,0 +1,101 @@
+.me {
+  width: 40px;
+  border-radius: 50%;
+}
+
+nav > li {
+  list-style-type: none;
+  float: right;
+  margin: 18px 10px 18px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li:nth-child(1) {
+  margin: 5px 10px;
+}
+
+li>a {
+  text-decoration: none;
+  color: black;
+}
+.google-img {
+  position: absolute;
+  left: 37%;
+  top: 35%;
+}
+
+.input-div {
+  border-radius: 25px;
+  border: solid 1px rgb(187, 190, 194);
+  padding: 5px 10px;
+}
+.input-div:hover {
+  box-shadow: 0px 2px 5px rgb(170, 168, 168);
+}
+input {
+  width: 480px;
+  height: 25px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 3px;
+  margin: 0px 15px;
+  outline: none;
+}
+.voice-logo {
+  float: right;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+.search-logo {
+  float: left;
+  margin-top: 6px;
+  margin-left: 5px;
+}
+button {
+  padding: 10px 15px;
+  margin-right: 50px;
+  border: solid 1px #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #5f6368;
+  border-radius: 5px;
+}
+button:hover {
+  box-shadow: 0px 2px 5px rgb(170, 168, 168);
+}
+.button-div {
+  margin-left: 130px;
+  margin-top: 40px;
+}
+footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 50px;
+  padding: 20px 0px 0px 0px;
+  margin: 0px;
+  background-color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+footer > li {
+  list-style-type: none;
+  padding: 2px;
+  margin: 5px 15px;
+}
+
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+
+footer > li:nth-child(1) {
+  margin-left: 50px;
+}
+
+footer > li:nth-child(5) {
+  margin-right: 50px;
+}
